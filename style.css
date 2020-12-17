@@ -5,8 +5,6 @@
 	background: url('image/background.jpg');
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-position: top center;
-	height: 800px;
 } .shadow {
 	display: flex;
 	width: 100%;
@@ -67,6 +65,18 @@
 } .minuman h2 {
 	width: 125px;
 	border-bottom: 3px solid orange;
+} hr {
+	margin: 20px 20px 20px 20px; 
+	border: 2px solid orange; 
+} .pesan {
+	margin-bottom: 50px;
+	box-sizing: border-box;
+	color:white;
+	font-size: 18px;
+} .pesan .orange {
+	background: orange;
+} .pesan .btn { 
+	margin-left: 60px; 
 }
 
 @media(max-width:900px){
